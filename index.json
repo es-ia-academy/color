@@ -25,102 +25,103 @@ section {
   border-radius: 20px;
   overflow: hidden;
 }
-</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><section id="YGzFJyA" data-type="section"><!--CSS--><style id="FCKoHfY" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#KcorEaq {
-    position: relative;
-  }
+</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><section id="YGzFJyA" data-type="section"><!--CSS--><style id="FCKoHfY" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#KcorEaq {
+  position: relative;
+}
 
-  grid-bg#CAsXbtr {
-    position: absolute;
-    height:100%;
-    width:100%;
-    z-index:-1;
-    display:block;
-  }
-  div#zjQRfRs,
-  div#KxtfvKN,
-  div#dkQDzVa,
-  div#rrdbern{
-    height:100%;
-    width:100%;
-  }
+grid-bg#CAsXbtr {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  display: block;
+}
 
-  div#VHUTeBc{
-    height:100%;
-    width:100%;
-    
-  }
+div#zjQRfRs,
+div#KxtfvKN,
+div#dkQDzVa,
+div#rrdbern {
+  height: 100%;
+  width: 100%;
+}
 
-  div#FVagCWV{
-    height:100%;
-    width:100%;
-    
-  }
+div#VHUTeBc {
+  height: 100%;
+  width: 100%;
+}
 
-  img#yaKQgTA {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
+div#FVagCWV {
+  height: 100%;
+  width: 100%;
+}
 
-  video#JZbnmbE {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  
-  grid-box#AnfzeAQ{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: auto;
-    width: 100%;
-    height: 100%;
-    place-content: center;
-  }
-  grid-item#sNuRaQV{
-    display: grid;
-    place-content: center;
-    padding: 15%;
-    gap: 15px;
-    height: auto;
-    min-height: 50vh;
-  }
+img#yaKQgTA {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 
-  img#dGrmeOj{
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  h2#VaMPkNU{
-    color:white;
-    font-size:clamp(24px,3vw,34px);
-    line-height: 1;
-  }
-  p#nqnmkIE{
-    color:white;
-    font-size:14px;
-  }
+video#JZbnmbE {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
 
-  #ToVwXvy{
-    display: flex;
-    gap: 10px;
-    flex-flow: wrap;
-  }
+grid-box#AnfzeAQ {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  width: 100%;
+  height: 100%;
+  min-height:50vh;
+  place-content: center;
+}
 
-  #ToVwXvy a{
-    border: 3px solid white;
-    padding: 0 15px;
-    color: white;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: 50px;
-    width: fit-content;
-    display: grid;
-    place-content: center;
-  }
-  
-  </style><style id="PoAaiyr" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="MlEFEjP" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+grid-item#sNuRaQV {
+  display: grid;
+  place-content: center;
+  padding: 15%;
+  gap: 15px;
+  height: auto;
+  min-height: 50vh;
+}
+
+img#dGrmeOj {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+h2#VaMPkNU {
+  color: white;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1;
+}
+
+p#nqnmkIE {
+  color: white;
+  font-size: 14px;
+}
+
+#ToVwXvy {
+  display: flex;
+  gap: 10px;
+  flex-flow: wrap;
+}
+
+#ToVwXvy a {
+  border: 3px solid white;
+  padding: 0 15px;
+  color: white;
+  font-size: 14px;
+  border-radius: 10px;
+  text-underline-position: under;
+  height: 50px;
+  width: fit-content;
+  display: grid;
+  place-content: center;
+}
+</style><style id="PoAaiyr" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style><style id="MlEFEjP" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
   grid-box#AnfzeAQ{
     grid-template-columns: repeat(1, 1fr);
   }
