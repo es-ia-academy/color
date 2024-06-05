@@ -25,7 +25,18 @@ section {
   border-radius: 20px;
   overflow: hidden;
 }
-</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) { /* Mobile */ }</style><grid-body id="grid-body"><section id="YGzFJyA" data-type="section"><!--CSS--><style id="FCKoHfY" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#KcorEaq {
+</style><style id="page-tablet.css" type="text/css" data-type="css" data-size="tablet" data-content="page">@media screen and (min-width:641px) and (max-width:1024px) { /* Tablet */ }</style><style id="page-mobile.css" type="text/css" data-type="css" data-size="mobile" data-content="page">@media screen and (max-width:640px) {
+  grid-body {
+    display: grid;
+    min-height: 100vh;
+    padding: 10px;
+    max-width: 1350px;
+    margin: 0 auto;
+    gap: 35px;
+    align-content: start;
+  }
+}
+</style><grid-body id="grid-body"><section id="YGzFJyA" data-type="section"><!--CSS--><style id="FCKoHfY" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#KcorEaq {
   position: relative;
 }
 
