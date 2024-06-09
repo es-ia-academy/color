@@ -173,11 +173,26 @@ section {
 
         <grid-box id="ZEqUaGQ">
             
-            <grid-item id="plsQHSS">
-                <img id="QFhBokl" src="https://raw.githubusercontent.com/icheff/energia.fr/main/media/images/logo-white.svg" data-type="image-fg" loading="lazy">
-            </grid-item>
+            
 
             <grid-item id="HzvUQpK">
+              <grid-box id="kTeMvcA">
+                <grid-item id="HmcqTHH">
+        <a id="aIjvUSW" href="#" contenteditable="true">HOME</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('HmcqTHH')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="ZapuwyP">
+        <a id="oLTLTTJ" href="#" contenteditable="true">SERVICES</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('ZapuwyP')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="uUAfIao">
+        <a id="iXpSeLe" href="#" contenteditable="true">SERVICES</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('uUAfIao')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><button id="KCwTBQi" class="no-export grid-add-item" onclick="itemsButtons('kTeMvcA','KCwTBQi')">+</button>
+              </grid-box>
+            </grid-item>
+
+          <grid-item id="plsQHSS">
+                <img id="QFhBokl" src="https://raw.githubusercontent.com/es-ia-academy/color/main/media/images/ia-academy-ico_100x100_100x100.png" data-type="image-fg" loading="lazy">
+            </grid-item><grid-item id="HzvUQpK">
               <grid-box id="kTeMvcA">
                 <grid-item id="HmcqTHH">
         <a id="aIjvUSW" href="#" contenteditable="true">HOME</a>
@@ -188,14 +203,9 @@ section {
     </grid-item><grid-item id="uUAfIao">
         <a id="iXpSeLe" href="#" contenteditable="true">SERVICES</a>
         <button class="no-export button-delete-item" onclick="deleteItem('uUAfIao')"><img src="./assets/svg/icons/delete.svg"></button>
-    </grid-item><grid-item id="ejrSgPe">
-        <a id="GKyxbti" href="#" contenteditable="true">CONTACT</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('ejrSgPe')"><img src="./assets/svg/icons/delete.svg"></button>
     </grid-item><button id="KCwTBQi" class="no-export grid-add-item" onclick="itemsButtons('kTeMvcA','KCwTBQi')">+</button>
               </grid-box>
-            </grid-item>
-
-          </grid-box>
+            </grid-item></grid-box>
         </grid-container>
       </div>
       
@@ -256,7 +266,7 @@ grid-box#uhbBxvP {
   grid-auto-rows: auto;
   width: 100%;
   height: 100%;
-  min-height: 90vh;
+  min-height: 70vh;
   place-content: center;
 }
 
@@ -266,7 +276,6 @@ grid-item#bXNYfkV {
   padding: 15%;
   gap: 15px;
   height: auto;
-  
 }
 
 img#MQzbhzt {
@@ -324,7 +333,7 @@ p#jAFaZDb {
             <div id="yHkXOYv" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
           <!-- bg-image -->
-          <div id="GkLmZoS" data-type="bg-image" class="div-visible">
+          <div id="GkLmZoS" data-type="bg-image" class="div-hidden">
             <picture id="ccLUnmD">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
@@ -332,9 +341,9 @@ p#jAFaZDb {
             </picture>
           </div> 
           <!-- bg-video -->
-          <div id="irCnadD" data-type="bg-video" class="div-hidden">
+          <div id="irCnadD" data-type="bg-video" class="div-visible">
             <video id="tiCvPyy" autoplay="" loop="" muted="" loading="lazy">
-              <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
+              <source src="https://videos.pexels.com/video-files/6985525/6985525-sd_640_360_25fps.mp4" type="video/mp4">
             </video>
           </div> 
         </grid-bg>
