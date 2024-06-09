@@ -36,64 +36,64 @@ section {
     align-content: start;
   }
 }
-</style><grid-body id="grid-body"><section id="CPGgNJf" data-type="section">
+</style><grid-body id="grid-body"><section id="gKsJqfT" data-type="section">
       
       <!--CSS-->
-      <style id="MJWOWBa" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#fVmqzYo {
+      <style id="cGlRxeB" type="text/css" data-type="css" data-size="laptop" data-content="section">
+  grid-container#lejoPIa {
     position: relative;
   }
 
-  grid-bg#gtZcOPS {
+  grid-bg#hKVbPqp {
     position: absolute;
     height:100%;
     width:100%;
     z-index:-1;
     display:block;
   }
-  div#XWqcWKE,
-  div#nJnQJzL,
-  div#yTUqMzE,
-  div#uEDTKTh{
+  div#ZfGneQm,
+  div#dJFNPYI,
+  div#MykvYFC,
+  div#TZvntmY{
     height:100%;
     width:100%;
   }
 
-  div#HUBeedP{
-    height:100%;
-    width:100%;
-    
-  }
-
-  div#UsqzZYK{
+  div#uLLwXpR{
     height:100%;
     width:100%;
     
   }
 
-  img#YWEPcpZ {
+  div#RaETOUS{
+    height:100%;
+    width:100%;
+    
+  }
+
+  img#TZNCXtg {
     object-fit:cover;
     height:100%;
     width:100%;
   }
 
-  video#xrgGlkr {
+  video#BDXAsxB {
     object-fit:cover;
     height:100%;
     width:100%;
   }
   
-  grid-box#WYtLwvv{
+  grid-box#YxPwiTE{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto auto auto;
     grid-auto-rows: auto;
     width: 100%;
     height: 100%;
     min-height: 50px;
-    place-content: center start;
+    place-content: center;
     place-items: center;
   }
-  grid-item#uWbQIlD{
+  grid-item#YewijKR{
     display: grid;
     place-content: center;
     padding: 15px;
@@ -101,28 +101,35 @@ section {
     height: auto;
   }
 
-  img#UjMIBdA{
+  img#BRLQzgm{
     object-fit:cover;
     height:100%;
     width:100%;
   }
-  h2#gQTLWjd{
-    color:white;
-    font-size:clamp(24px,3vw,34px);
-    line-height: 1;
-  }
-  p#RwBVKqo{
-    color:white;
-    font-size:14px;
-  }
-
-  #JWrQFmo{
+  #ohLYhcw{
     display: flex;
     gap: 10px;
     flex-flow: wrap;
   }
+  #ohLYhcw a{
+    border: none;
+    padding: 0 15px;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    text-underline-position: under;
+    height: 50px;
+    width: fit-content;
+    display: grid;
+    place-content: center;
+  }
 
-  #JWrQFmo a{
+  #AWBRekF{
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap;
+  }
+  #AWBRekF a{
     border: none;
     padding: 0 15px;
     color: white;
@@ -136,73 +143,83 @@ section {
   }
   
   </style>
-      <style id="xLNDbFB" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="XqfKCZv" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#WYtLwvv{
+      <style id="RXvVagT" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
+      <style id="NDcZAze" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  grid-box#YxPwiTE{
     grid-template-columns: repeat(1, 1fr);
   }
   }</style>
       
       <!--HTML-->
-      <div id="UwPHEZx" data-type="html">
-        <grid-container id="poeIfRE">
+      <div id="oLuzCXr" data-type="html">
+        <grid-container id="IHeHNKA">
         
-        <grid-bg id="gtZcOPS" data-type="grid-bg">
+        <grid-bg id="hKVbPqp" data-type="grid-bg">
           <!-- bg-color -->
-          <div id="XWqcWKE" data-type="bg-color" class="div-visible">
-            <div id="nJnQJzL" data-type="solid-color" class="div-visible" style="background: rgba(0, 0, 0, 0);"></div>
-            <div id="yTUqMzE" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
-            <div id="uEDTKTh" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+          <div id="ZfGneQm" data-type="bg-color" class="div-visible">
+            <div id="dJFNPYI" data-type="solid-color" class="div-visible" style="background: rgba(0, 0, 0, 0);"></div>
+            <div id="MykvYFC" data-type="radial-color" class="div-hidden" style="background: radial-gradient(circle, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
+            <div id="TZvntmY" data-type="linear-color" class="div-hidden" style="background: linear-gradient(0deg, rgb(0, 0, 0), rgb(0, 0, 0));"></div>
           </div> 
           <!-- bg-image -->
-          <div id="HUBeedP" data-type="bg-image" class="div-hidden">
-            <picture id="qiAiKNP">
+          <div id="uLLwXpR" data-type="bg-image" class="div-hidden">
+            <picture id="kugKBzJ">
               <source srcset="" media="(max-width:640px)">
               <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="YWEPcpZ" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="img-bg" loading="lazy">
+              <img id="TZNCXtg" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="img-bg" loading="lazy">
             </picture>
           </div> 
           <!-- bg-video -->
-          <div id="UsqzZYK" data-type="bg-video" class="div-hidden">
-            <video id="xrgGlkr" autoplay="" loop="" muted="" loading="lazy">
+          <div id="RaETOUS" data-type="bg-video" class="div-hidden">
+            <video id="BDXAsxB" autoplay="" loop="" muted="" loading="lazy">
               <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
             </video>
           </div> 
         </grid-bg>
 
-        <grid-box id="WYtLwvv">
-            
-            <grid-item id="uWbQIlD">
-                <img id="xUWdWNs" src="https://raw.githubusercontent.com/es-ia-academy/color/main/media/images/ia-academy-ico_100x100_100x100.png" data-type="image-fg" loading="lazy">
-            </grid-item>
+        <grid-box id="YxPwiTE">
 
-            <grid-item id="WEAjSsw">
-              <grid-box id="JWrQFmo">
-                <grid-item id="XjRbaoc">
-        <a id="JXnOCBz" href="#" contenteditable="true">HOME</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('XjRbaoc')"><img src="./assets/svg/icons/delete.svg"></button>
-    </grid-item><grid-item id="QcJfKKs">
-        <a id="UEoIzpx" href="#" contenteditable="true">ABOUT</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('QcJfKKs')"><img src="./assets/svg/icons/delete.svg"></button>
-    </grid-item><grid-item id="YBERZgS">
-        <a id="mKBufEb" href="#" contenteditable="true">BLOG</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('YBERZgS')"><img src="./assets/svg/icons/delete.svg"></button>
-    </grid-item><grid-item id="dUvyoBQ">
-        <a id="UZgqtcz" href="#" contenteditable="true">CONTACT</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('dUvyoBQ')"><img src="./assets/svg/icons/delete.svg"></button>
-    </grid-item><grid-item id="CemSGZY">
-        <a id="PYgyLjs" href="#" contenteditable="true">SERVICES</a>
-        <button class="no-export button-delete-item" onclick="deleteItem('CemSGZY')"><img src="./assets/svg/icons/delete.svg"></button>
-    </grid-item><button id="yRQcByG" class="no-export grid-add-item" onclick="itemsButtons('JWrQFmo','yRQcByG')">+</button>
+            <grid-item id="FgmDoBn">
+              <grid-box id="ohLYhcw">
+                <grid-item id="cTkHUNx">
+        <a id="baroeLK" href="#" contenteditable="true">HOME</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('cTkHUNx')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="oxqwfgP">
+        <a id="PglojsL" href="#" contenteditable="true">ABOUT</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('oxqwfgP')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="rsGQzan">
+        <a id="CkLYYQs" href="#" contenteditable="true">COURSES</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('rsGQzan')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><button id="AMRiAnr" class="no-export grid-add-item" onclick="itemsButtons('ohLYhcw','AMRiAnr')">+</button>
               </grid-box>
             </grid-item>
+
+            <grid-item id="YewijKR">
+                <img id="BRLQzgm" src="https://raw.githubusercontent.com/es-ia-academy/color/main/media/images/ia-academy-ico_100x100_100x100.png" data-type="image-fg" loading="lazy">
+            </grid-item>
+
+            <grid-item id="EcDgvpU">
+              <grid-box id="AWBRekF">
+                <grid-item id="BNpmaIn">
+        <a id="wvKwBVI" href="#" contenteditable="true">TOOLS</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('BNpmaIn')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="TngKPqg">
+        <a id="SHUEpSu" href="#" contenteditable="true">JOBS</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('TngKPqg')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="TNdEZkG">
+        <a id="CXdWoQf" href="#" contenteditable="true">CHAT</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('TNdEZkG')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><button id="eUCIQZv" class="no-export grid-add-item" onclick="itemsButtons('AWBRekF','eUCIQZv')">+</button>
+              </grid-box>
+            </grid-item>
+
 
           </grid-box>
         </grid-container>
       </div>
       
       <!--JS-->
-      <script id="MPeqbVs" data-type="js"></script>
+      <script id="MEaKHOq" data-type="js"></script>
       <!--EDIT-->
       <button class="toolbar-open" onclick="toolsOpenModal(this)"></button>
   </section><section id="wyjwlIM" data-type="section"><!--CSS--><style id="oIuneey" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#nLyiPQh {
