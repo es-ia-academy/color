@@ -15,6 +15,7 @@ grid-body {
   max-width: 1350px;
   margin: 0 auto;
   gap: 35px;
+  padding:35px;
   align-content: start;
 }
 
