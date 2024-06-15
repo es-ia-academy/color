@@ -370,8 +370,11 @@ p#qyHJmTn {
                 <p id="qyHJmTn" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
                 <grid-box id="QSMazJl">
                   <grid-item id="HQzPbQN">
-        <a id="cUfQucO" href="#" contenteditable="true">Lorem ipsum</a>
+        <a id="cUfQucO" href="google.fr" contenteditable="true">GOOGLE.FR</a>
         <button class="no-export button-delete-item" onclick="deleteItem('HQzPbQN')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><grid-item id="wAVMFam">
+        <a id="ZdlZVSB" href="yahoo.fr" contenteditable="true">YAHOO.FR</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('wAVMFam')"><img src="./assets/svg/icons/delete.svg"></button>
     </grid-item><button id="ZrWfMlq" class="no-export grid-add-item" onclick="itemsButtons('QSMazJl','ZrWfMlq')">+</button>
                 </grid-box>
                 
