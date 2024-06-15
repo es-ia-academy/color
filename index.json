@@ -202,7 +202,7 @@ section {
             <grid-item id="aFhwSMT">
               <grid-box id="MbHriKb">
                 <grid-item id="abJKQGN">
-        <a id="AjnSnNy" href="#" contenteditable="true">CONTACT</a>
+        <a id="AjnSnNy" href="https://fr.yahoo.com/" contenteditable="true">CONTACT</a>
         <button class="no-export button-delete-item" onclick="deleteItem('abJKQGN')"><img src="./assets/svg/icons/delete.svg"></button>
     </grid-item><grid-item id="pTEaktr">
         <a id="AoJyodj" href="#" contenteditable="true">CHAT ONLINE</a>
