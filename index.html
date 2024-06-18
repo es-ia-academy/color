@@ -10,6 +10,11 @@
   <meta charset="UTF-8">
   <meta name="google" content="notranslate">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Preconnect to the Google Fonts server -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Load the Material Symbols Outlined font with display=swap -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" />
+    <!-- <script src="./video.js"></script> -->
   <script src="./scripts/header.js"></script>
   <script src="./scripts/analytics.js"></script>
   </head>
@@ -57,130 +62,133 @@ section {
   }
 }
 </style><grid-body id="grid-body">
-  
-  
-  <section id="ZiHGUhh" data-type="section">
+  <section id="wcZIlJf" data-type="section">
       
       <!--CSS-->
-      <style id="PBgrzmF" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#bLlVgvH {
+      <style id="ESHqEJD" type="text/css" data-type="css" data-size="laptop" data-content="section">
+  grid-container#oERBkLv {
     position: relative;
   }
-
-  grid-bg#QdaBIsb {
+  grid-box#cJBAESC{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px,80px));
+    grid-auto-rows: auto;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    place-content: center;
+  }
+  grid-bg#ubPyPFp {
     position: absolute;
     height:100%;
     width:100%;
     z-index:-1;
     display:block;
   }
-  div#JNUpsuZ,
-  div#qYejJCw,
-  div#Rjadqyl,
-  div#cMEavNU{
+  div#EqkEyVQ,
+  div#jgNWtKl,
+  div#eplOsBC,
+  div#XZaxTWm{
     height:100%;
     width:100%;
   }
 
-  div#IILfhSf{
+  div#VmNfEIG{
     height:100%;
     width:100%;
     
   }
 
-  div#grhGOAj{
+  div#cwVzOHn{
     height:100%;
     width:100%;
     
   }
 
-  img#iOPUuFg {
+  img#nbnyBaB {
     object-fit:cover;
     height:100%;
     width:100%;
   }
 
-  video#mqKiGzM {
+  video#TKhiLSD {
     object-fit:cover;
     height:100%;
     width:100%;
   }
-  
-  grid-box#MOJAkJJ{
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    grid-auto-rows: auto;
-    width: 100%;
-    height: 100%;
-    min-height: 50px;
-    place-content: center;
+  grid-box#cJBAESC grid-item {
+    display:grid;
+    border-radius: 10px;
+    overflow: hidden;
+    place-content: start center;
     place-items: center;
   }
-  grid-item#DDsGeTe{
+  grid-box#cJBAESC item-body {
+    padding: 0px;
     display: grid;
-    place-content: center;
-    padding: 15px;
-    gap: 15px;
-    height: auto;
+    gap: 10px;
   }
 
-  img#qjpsnbB{
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  #USphAVB{
-    display: flex;
-    gap: 10px;
-    flex-flow: wrap;
-  }
-  #USphAVB a{
-    border: none;
-    padding: 0 15px;
-    color: white;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: 50px;
-    width: fit-content;
-    display: grid;
-    place-content: center;
+  grid-box#cJBAESC grid-title {
+    font-size:1.5rem;
+    color:white;
   }
 
-  #MbHriKb{
-    display: flex;
-    gap: 10px;
-    flex-flow: wrap;
+  grid-box#cJBAESC grid-desc {
+    font-size: 12px;
+    color: #929292;
   }
-  #MbHriKb a{
-    border: none;
-    padding: 0 15px;
+
+  grid-box#cJBAESC item-title {
     color: white;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: 50px;
-    width: fit-content;
-    display: grid;
-    place-content: center;
   }
-  
+
+  grid-box#cJBAESC item-desc {
+    display: grid;
+    font-size: 12px;
+    color: #929292;
+    text-align:center;
+  }
+  grid-head#kZLpHyF{
+    grid-column: 1 / -1;
+    display: grid;
+    margin-left: 15px;
+  }
+  grid-box#cJBAESC item-head span{
+    font-size:80px;
+    color:white;
+  }
   </style>
-      <style id="KipZlFF" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="POoBCGV" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#MOJAkJJ{
-    grid-template-columns: repeat(1, 1fr);
+      <style id="CZankvr" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){
+  grid-box#cJBAESC {
+    display: grid;
+  }
+  }</style>
+      <style id="KgvmAAW" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
+  grid-head#kZLpHyF{
+    grid-column: 1 / -1;
+    display: grid;
+    place-content:center;
+    text-align:center;
+    padding:35px;
+  }
+  grid-box#cJBAESC {
+      display: grid;
+      gap:5px;
+      padding-bottom:35px;
+      grid-template-columns: 1fr 1fr 1fr;
   }
   }</style>
       
       <!--HTML-->
-      <div id="GZtJLvt" data-type="html">
-        <grid-container id="FLFAyWH">
-        
-        <grid-bg id="QdaBIsb" data-type="grid-bg">
+      <div id="uCwgjXr" data-type="html">
+        <grid-container id="SoDkFsd">
+          
+        <grid-bg id="ubPyPFp" data-type="grid-bg">
           <!-- bg-color -->
-          <div id="JNUpsuZ" data-type="bg-color" class="div-visible">
-            <div id="qYejJCw" data-type="solid-color" class="div-visible" style="background: rgba(0, 0, 0, 0);"></div>
+          <div id="EqkEyVQ" data-type="bg-color" class="div-visible">
+            <div id="jgNWtKl" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
             
             
           </div> 
@@ -190,401 +198,43 @@ section {
            
         </grid-bg>
 
-        <grid-box id="MOJAkJJ">
 
-            <grid-item id="bIWyPiQ">
-              <grid-box id="USphAVB">
-                <grid-item id="pVvFDXg">
-        <a id="rLIiCMi" href="#">L'IA GENERATIVE</a>
+          <grid-box id="cJBAESC">
+            <grid-head id="kZLpHyF">
+              <grid-title id="mlOZWmd">Lorem ipsum</grid-title>
+              <grid-desc id="ABuLsCW">Lorem ipsum dolor sit amet</grid-desc>
+            </grid-head>
+            <grid-item id="FFmsgls">
+        <item-head id="aTqxJBE">
+          <span id="diPjGfy" class="material-symbols-outlined" data-type="icon-fg">stacks</span>
+        </item-head>
+        <item-body id="BZmSyho">
+          <item-desc id="Mdglzwd">Lorem
+        </item-desc></item-body>
         
-    </grid-item><grid-item id="WIBiVrG">
-        <a id="yXopalc" href="#">NOS FORMATIONS</a>
+      </grid-item><grid-item id="YtksnhT">
+        <item-head id="mdbWkXJ">
+          <span id="kJbOIJx" class="material-symbols-outlined" data-type="icon-fg">close</span>
+        </item-head>
+        <item-body id="mMyONTI">
+          <item-desc id="HohCzxz">Lorem
+        </item-desc></item-body>
         
-    </grid-item>
-              </grid-box>
-            </grid-item>
-
-            <grid-item id="DDsGeTe">
-                <img id="qjpsnbB" src="https://raw.githubusercontent.com/es-ia-academy/color/main/media/images/ia-academy-ico_100x100_100x100.png" data-type="image-fg" loading="lazy">
-            </grid-item>
-
-            <grid-item id="aFhwSMT">
-              <grid-box id="MbHriKb">
-                <grid-item id="abJKQGN">
-        <a id="AjnSnNy" href="https://fr.yahoo.com/">CONTACT</a>
+      </grid-item><grid-item id="JyTdSxe">
+        <item-head id="iUWoRrX">
+          <span id="IsbydTP" class="material-symbols-outlined" data-type="icon-fg">home</span>
+        </item-head>
+        <item-body id="buHugsO">
+          <item-desc id="TDXqEnX">Lorem
+        </item-desc></item-body>
         
-    </grid-item><grid-item id="pTEaktr">
-        <a id="AoJyodj" href="#">CHAT ONLINE</a>
-        
-    </grid-item>
-              </grid-box>
-            </grid-item>
-
-
+      </grid-item>
           </grid-box>
         </grid-container>
       </div>
       
       <!--JS-->
-      <script id="fuhDERf" data-type="js"></script>
-      <!--EDIT-->
-      
-  </section>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <section id="nvTERqq" data-type="section">
-      
-      <!--CSS-->
-      <style id="FehrpqG" type="text/css" data-type="css" data-size="laptop" data-content="section">grid-container#yuViMsJ {
-  position: relative;
-}
-
-grid-bg#KgIriZj {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-  display: block;
-}
-
-div#CfOouHK,
-div#oIjlJEo,
-div#wXgesXe,
-div#nyvduiI {
-  height: 100%;
-  width: 100%;
-}
-
-div#zraivDA {
-  height: 100%;
-  width: 100%;
-}
-
-div#GgTZBhX {
-  height: 100%;
-  width: 100%;
-}
-
-img#KicrqjD {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-video#lLqLdMz {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-grid-box#qPbWHlt {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: auto;
-  width: 100%;
-  height: 100%;
-  place-content: center;
-}
-
-grid-item#IctfCFf {
-  display: grid;
-  place-content: center;
-  padding: 15%;
-  gap: 15px;
-  height: auto;
-  min-height: 80vh;
-}
-
-img#APAbvwJ {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-h2#DDqBFus {
-  color: white;
-  font-size: clamp(24px, 3vw, 34px);
-  line-height: 1;
-}
-
-p#qyHJmTn {
-  color: white;
-  font-size: 14px;
-}
-
-#QSMazJl {
-  display: flex;
-  gap: 10px;
-  flex-flow: wrap;
-}
-
-#QSMazJl a {
-  border: 3px solid white;
-  padding: 0 15px;
-  color: white;
-  font-size: 14px;
-  border-radius: 10px;
-  text-underline-position: under;
-  height: 50px;
-  width: fit-content;
-  display: grid;
-  place-content: center;
-}
-</style>
-      <style id="XYliDgK" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="XeAqrFw" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#qPbWHlt{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  }</style>
-      
-      <!--HTML-->
-      <div id="WMHYNoZ" data-type="html">
-        <grid-container id="MzWqnCg">
-        
-        <grid-bg id="KgIriZj" data-type="grid-bg">
-          <!-- bg-color -->
-           
-          <!-- bg-image -->
-          <div id="zraivDA" data-type="bg-image" class="div-visible">
-            <picture id="lXEmEbC">
-              <source srcset="" media="(max-width:640px)">
-              <source srcset="" media="(min-width:641px) and (max-width:1024px)">
-              <img id="KicrqjD" src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?ixid=M3wzOTcwOTd8MHwxfHNlYXJjaHwyM3x8Zm9vZHxlbnwwfDB8fHwxNzE2ODM1NjIzfDA&amp;ixlib=rb-4.0.3&amp;w=1280&amp;h=720&amp;fit=crop" data-type="img-bg" loading="lazy">
-            </picture>
-          </div> 
-          <!-- bg-video -->
-           
-        </grid-bg>
-
-        <grid-box id="qPbWHlt">
-            
-            <grid-item id="IctfCFf">
-                <h2 id="DDqBFus">Lorem ipsum</h2>
-                <p id="qyHJmTn">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Donec ac odio tempor orci dapibus ultrices in iaculis nunc.</p>
-                <grid-box id="QSMazJl">
-                  <grid-item id="HQzPbQN">
-        <a id="cUfQucO" href="google.fr">GOOGLE.FR</a>
-        
-    </grid-item><grid-item id="wAVMFam">
-        <a id="ZdlZVSB" href="yahoo.fr">YAHOO.FR</a>
-        
-    </grid-item>
-                </grid-box>
-                
-            </grid-item>
-
-            <grid-item id="OMUgCqr">
-                
-            </grid-item>
-
-          </grid-box>
-        </grid-container>
-      </div>
-      
-      <!--JS-->
-      <script id="BXwzYcV" data-type="js"></script>
-      <!--EDIT-->
-      
-  </section>
-  
-  <section id="kPtINHz" data-type="section">
-      
-      <!--CSS-->
-      <style id="frnICQN" type="text/css" data-type="css" data-size="laptop" data-content="section">
-  grid-container#RsUdUWF {
-    position: relative;
-  }
-
-  grid-bg#kEYEkII {
-    position: absolute;
-    height:100%;
-    width:100%;
-    z-index:-1;
-    display:block;
-  }
-  div#yhVXnqb,
-  div#gyYHXOM,
-  div#OQqUEpt,
-  div#gRnpfaz{
-    height:100%;
-    width:100%;
-  }
-
-  div#duhTSuf{
-    height:100%;
-    width:100%;
-    
-  }
-
-  div#kqVVkDz{
-    height:100%;
-    width:100%;
-    
-  }
-
-  img#KcmZjmq {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-
-  video#TWCXdJM {
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  
-  grid-box#JGDEaNC{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    width: 100%;
-    height: 100%;
-    min-height: 50px;
-    place-content: center;
-    place-items: start center;
-    padding: 5%;
-  }
-  grid-item#RffoAuK{
-    display: grid;
-    place-content: center;
-    padding: 15px;
-    gap: 15px;
-    height: auto;
-  }
-
-  img#KUplczO{
-    object-fit:cover;
-    height:100%;
-    width:100%;
-  }
-  #ijzdRUb,
-  #QzVINLX,
-  #OBnGADt,
-  #WYGdyjY{
-    display: grid;
-    gap: 10px;
-    
-  }
-  #ijzdRUb a,
-  #QzVINLX a,
-  #OBnGADt a,
-  #WYGdyjY a{
-    border: none;
-    padding: 5px 20px;
-    color: white;
-    font-size: 14px;
-    border-radius: 10px;
-    text-underline-position: under;
-    height: auto;
-    width: fit-content;
-    display: grid;
-    place-content: center;
-  }
-  
-  </style>
-      <style id="itaforl" type="text/css" data-type="css" data-size="tablet" data-content="section">@media screen and (min-width:641px) and (max-width:1024px){}</style>
-      <style id="VCixLYE" type="text/css" data-type="css" data-size="mobile" data-content="section">@media screen and (max-width:640px){
-  grid-box#JGDEaNC{
-    grid-template-columns: repeat(1, 1fr);
-  }
-  }</style>
-      
-      <!--HTML-->
-      <div id="yRhSbYM" data-type="html">
-        <grid-container id="GcCoDZx">
-        
-        <grid-bg id="kEYEkII" data-type="grid-bg">
-          <!-- bg-color -->
-          <div id="yhVXnqb" data-type="bg-color" class="div-visible">
-            <div id="gyYHXOM" data-type="solid-color" class="div-visible" style="background: rgb(0, 0, 0);"></div>
-            
-            
-          </div> 
-          <!-- bg-image -->
-           
-          <!-- bg-video -->
-           
-        </grid-bg>
-
-        <grid-box id="JGDEaNC">
-
-        <grid-item id="sEvbHLU">
-          <grid-box id="ijzdRUb">
-            <grid-item id="fSoOCyg">
-        <a id="dAkBcdt" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="NNlKORW">
-        <a id="jcVUkeI" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="loeEqMZ">
-        <a id="yvqVyYb" href="#">Lorem ipsum</a>
-        
-    </grid-item>
-          </grid-box>
-        </grid-item>
-
-        <grid-item id="RDxKeIp">
-          <grid-box id="QzVINLX">
-            <grid-item id="yeqeFQz">
-        <a id="BVuUuNZ" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="NUHvqaJ">
-        <a id="ZMZAURM" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="VhBmhCu">
-        <a id="fTLfbPx" href="#">Lorem ipsum</a>
-        
-    </grid-item>
-          </grid-box>
-        </grid-item>
-
-        <grid-item id="sUUxNFd">
-          <grid-box id="OBnGADt">
-            <grid-item id="ObTqkLA">
-        <a id="iTuvVpW" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="yRkoNjG">
-        <a id="bQPodHO" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="FDRDogA">
-        <a id="iMsedoM" href="#">Lorem ipsum</a>
-        
-    </grid-item>
-          </grid-box>
-        </grid-item>
-
-
-        <grid-item id="cwjAhbw">
-          <grid-box id="WYGdyjY">
-            <grid-item id="DPnANJW">
-        <a id="FEtZGOL" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="cbLigAI">
-        <a id="UMTvWyY" href="#">Lorem ipsum</a>
-        
-    </grid-item><grid-item id="PZfBfxw">
-        <a id="JAeIdor" href="#">Lorem ipsum</a>
-        
-    </grid-item>
-          </grid-box>
-        </grid-item>
-
-
-          </grid-box>
-        </grid-container>
-      </div>
-      
-      <!--JS-->
-      <script id="nBZPodJ" data-type="js"></script>
+      <script id="qaODWLa" data-type="js"></script>
       <!--EDIT-->
       
   </section>
