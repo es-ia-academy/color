@@ -259,7 +259,9 @@ section {
       </video>
     </div>
   </grid-bg><grid-box id="notymAF"><grid-item id="WhLeDtZ"><grid-box id="tZpLWrp"><grid-item id="TQlipfB">
-          <a id="JIVKXRa" href="#" contenteditable="true">e9f6 Lorem ipsum</a>
+          <a id="JIVKXRa" href="#" contenteditable="true">
+            <span class="material-symbols-outlined"> toggle_on </span>
+          </a>
           <button class="no-export button-delete-item" onclick="deleteItem('TQlipfB')">
             <img src="./assets/svg/icons/delete.svg">
             <span class="material-symbols-outlined"> toggle_on </span>
