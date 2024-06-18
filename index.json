@@ -269,7 +269,10 @@ section {
         </grid-item>
         <button id="fFYLaGY" class="no-export grid-add-item" onclick="itemsButtons('tZpLWrp','fFYLaGY')">+</button>
       </grid-box></grid-item><grid-item id="CdUgLgZ"><grid-box id="OEWrwxU">
-        <button id="wqGuFbK" class="no-export grid-add-item" onclick="itemsButtons('OEWrwxU','wqGuFbK')">+</button>
+        <grid-item id="SOKrFML">
+        <a id="EuRTytM" href="#" contenteditable="true">e9f6</a>
+        <button class="no-export button-delete-item" onclick="deleteItem('SOKrFML')"><img src="./assets/svg/icons/delete.svg"></button>
+    </grid-item><button id="wqGuFbK" class="no-export grid-add-item" onclick="itemsButtons('OEWrwxU','wqGuFbK')">+</button>
       </grid-box></grid-item><grid-item id="bGKrKSy"><grid-box id="KvyISqv">
         <button id="xpGtWOX" class="no-export grid-add-item" onclick="itemsButtons('KvyISqv','xpGtWOX')">+</button>
       </grid-box></grid-item><grid-item id="LyIeuKr"><grid-box id="WZGSYBq">
