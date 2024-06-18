@@ -258,36 +258,20 @@ section {
         <source src="https://github.com/IAMEDIA360/videos/raw/main/empty.mp4" type="video/mp4">
       </video>
     </div>
-  </grid-bg><grid-box id="notymAF"><grid-item id="WhLeDtZ"><grid-box id="tZpLWrp"><grid-item id="TQlipfB">
-          <a id="JIVKXRa" href="#" contenteditable="true">
-            <span class="material-symbols-outlined">sms</span>
-          </a>
-          <button class="no-export button-delete-item" onclick="deleteItem('TQlipfB')">
+  </grid-bg><grid-box id="notymAF"><grid-item id="WhLeDtZ"><grid-box id="tZpLWrp">
+        <grid-item id="xcrdiwe">
+          <a id="rdRtdAn" href="#" contenteditable="true"><span class="material-symbols-outlined">home</span>
+    <span class="material-symbols-outlined">face</span>
+    <span class="material-symbols-outlined">settings</span></a>
+          <button class="no-export button-delete-item" onclick="deleteItem('xcrdiwe')">
             <img src="./assets/svg/icons/delete.svg">
-            <span class="material-symbols-outlined"> toggle_on </span>
           </button>
         </grid-item>
         <button id="fFYLaGY" class="no-export grid-add-item" onclick="itemsButtons('tZpLWrp','fFYLaGY')">+</button>
       </grid-box></grid-item><grid-item id="CdUgLgZ"><grid-box id="OEWrwxU">
-        <grid-item id="eEfifkw">
-          <a id="mkXASoM" href="#" contenteditable="true">Lorem ipsum</a>
-          <button class="no-export button-delete-item" onclick="deleteItem('eEfifkw')">
-            <img src="./assets/svg/icons/delete.svg">
-          </button>
-        </grid-item>
         <button id="wqGuFbK" class="no-export grid-add-item" onclick="itemsButtons('OEWrwxU','wqGuFbK')">+</button>
-      </grid-box></grid-item><grid-item id="bGKrKSy"><grid-box id="KvyISqv"><grid-item id="DuZKnGa">
-          <a id="lRyyJSs" href="#" contenteditable="true">Lorem ipsum</a>
-          <button class="no-export button-delete-item" onclick="deleteItem('DuZKnGa')">
-            <img src="./assets/svg/icons/delete.svg">
-          </button>
-        </grid-item>
+      </grid-box></grid-item><grid-item id="bGKrKSy"><grid-box id="KvyISqv">
         <button id="xpGtWOX" class="no-export grid-add-item" onclick="itemsButtons('KvyISqv','xpGtWOX')">+</button>
-      </grid-box></grid-item><grid-item id="LyIeuKr"><grid-box id="WZGSYBq"><grid-item id="snkOayG">
-          <a id="nVNfhvd" href="#" contenteditable="true">Lorem ipsum</a>
-          <button class="no-export button-delete-item" onclick="deleteItem('snkOayG')">
-            <img src="./assets/svg/icons/delete.svg">
-          </button>
-        </grid-item>
+      </grid-box></grid-item><grid-item id="LyIeuKr"><grid-box id="WZGSYBq">
         <button id="IQlHaWU" class="no-export grid-add-item" onclick="itemsButtons('WZGSYBq','IQlHaWU')">+</button>
       </grid-box></grid-item></grid-box></grid-container></div><!--JS--><script id="Chnxbqg" data-type="js"></script><!--EDIT--><button class="toolbar-open" onclick="toolsOpenModal(this)"></button></section></grid-body>
