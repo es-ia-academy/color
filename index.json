@@ -260,7 +260,7 @@ section {
     </div>
   </grid-bg><grid-box id="notymAF"><grid-item id="WhLeDtZ"><grid-box id="tZpLWrp"><grid-item id="TQlipfB">
           <a id="JIVKXRa" href="#" contenteditable="true">
-            <span class="material-symbols-outlined"> toggle_on </span>
+            <span class="material-symbols-outlined">sms</span>
           </a>
           <button class="no-export button-delete-item" onclick="deleteItem('TQlipfB')">
             <img src="./assets/svg/icons/delete.svg">
