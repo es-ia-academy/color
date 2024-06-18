@@ -259,18 +259,17 @@ section {
       </video>
     </div>
   </grid-bg><grid-box id="notymAF"><grid-item id="WhLeDtZ"><grid-box id="tZpLWrp"><grid-item id="TQlipfB">
-          <a id="JIVKXRa" href="#" contenteditable="true">Lorem ipsum</a>
+          <a id="JIVKXRa" href="#" contenteditable="true">e9f6 Lorem ipsum</a>
           <button class="no-export button-delete-item" onclick="deleteItem('TQlipfB')">
             <img src="./assets/svg/icons/delete.svg">
             <span class="material-symbols-outlined"> toggle_on </span>
           </button>
         </grid-item>
         <button id="fFYLaGY" class="no-export grid-add-item" onclick="itemsButtons('tZpLWrp','fFYLaGY')">+</button>
-      </grid-box></grid-item><grid-item id="CdUgLgZ"><grid-box id="OEWrwxU"><grid-item id="XudzAgg">
-          <a id="aPQdbdt" href="#" contenteditable="true">
-            <span class="material-symbols-outlined"> toggle_on </span> Lorem ipsum
-          </a>
-          <button class="no-export button-delete-item" onclick="deleteItem('XudzAgg')">
+      </grid-box></grid-item><grid-item id="CdUgLgZ"><grid-box id="OEWrwxU">
+        <grid-item id="eEfifkw">
+          <a id="mkXASoM" href="#" contenteditable="true">Lorem ipsum</a>
+          <button class="no-export button-delete-item" onclick="deleteItem('eEfifkw')">
             <img src="./assets/svg/icons/delete.svg">
           </button>
         </grid-item>
